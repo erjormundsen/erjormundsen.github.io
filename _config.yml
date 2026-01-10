@@ -11,8 +11,8 @@ author: "E. R. Jormundsen"
 # The theme is now local, so no 'remote_theme' or 'theme' is needed.
 
 # Settings from upstream theme for compatibility
-icon: /assets/images/walrus.png
-image: /assets/images/walrus.png
+icon: /assets/images/walrus-icon.png
+image: /assets/images/walrus-small.png
 # markdown: kramdown
 
 plugins:
