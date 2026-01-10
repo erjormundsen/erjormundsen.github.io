@@ -3,8 +3,7 @@ source "https://rubygems.org"
 # Use GitHub Pages to match GitHub's build environment and bundled plugins
 gem "github-pages", group: :jekyll_plugins
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem and associated library
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
@@ -21,7 +20,3 @@ gem "jekyll-seo-tag", "~> 2.8"
 gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-feed", "~> 0.17.0"
 gem "jekyll-remote-theme"
-
-
-# Theme
-gem "hitchens-theme"
