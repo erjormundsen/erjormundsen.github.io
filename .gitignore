@@ -5,4 +5,5 @@ _site
 vendor
 *.gem
 .bundle
+
 assets/css/main.css
