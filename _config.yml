@@ -12,6 +12,7 @@ author: "E. R. Jormundsen"
 
 # Settings from upstream theme for compatibility
 icon: /assets/images/walrus.png
+image: /assets/images/walrus.png
 # markdown: kramdown
 
 plugins:
