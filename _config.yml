@@ -12,6 +12,7 @@ plugins:
   - jekyll-feed
 
 # Theme: set to 'hitchens'
-remote_theme: patdryburgh/hitchens
+theme: hitchens-theme
+ignore_theme_config: true
 hide_credits: true
 hide_search: true
