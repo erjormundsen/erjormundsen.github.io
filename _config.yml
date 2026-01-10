@@ -6,15 +6,25 @@ url: "https://www.erjormundsen.com"
 twitter_username: erjormundsen
 github_username: erjormundsen
 author: "E. R. Jormundsen"
+
+# Theme settings
+# The theme is now local, so no 'remote_theme' or 'theme' is needed.
+
+# Settings from upstream theme for compatibility
+icon: /assets/images/icon-512.png
+# markdown: kramdown
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-remote-theme
+  - jekyll-paginate
 
-# Theme: set to 'hitchens'
-# theme: hitchens-theme
-remote_theme: patdryburgh/hitchens
+# Pagination
+paginate: 3
+paginate_path: "/page/:num/"
+
+# Custom settings
 ignore_theme_config: true
 hide_credits: true
 hide_search: true
