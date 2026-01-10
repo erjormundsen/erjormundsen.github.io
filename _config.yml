@@ -10,9 +10,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Theme: set to 'hitchens'
-theme: hitchens-theme
+# theme: hitchens-theme
+remote_theme: patdryburgh/hitchens
 ignore_theme_config: true
 hide_credits: true
 hide_search: true
