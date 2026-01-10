@@ -1,0 +1,17 @@
+title: "E. R. Jormundsen"
+email: contact@erjormundsen.com
+description: "Official author site"
+baseurl: ""
+url: "https://www.erjormundsen.com"
+twitter_username: erjormundsen
+github_username: erjormundsen
+author: "E. R. Jormundsen"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Theme: set to 'hitchens'
+remote_theme: patdryburgh/hitchens
+hide_credits: true
+hide_search: true
