@@ -15,6 +15,19 @@ layout: default
     {{ site.description }}
   </h2>
   {% endif %}
+
+  <div class="social-links">
+    {% if site.tiktok_username %}
+    <a href="https://www.tiktok.com/@{{ site.tiktok_username }}" aria-label="TikTok">
+      <i class="fa-brands fa-tiktok"></i>
+    </a>
+    {% endif %}
+    {% if site.bluesky_username %}
+    <a href="https://bsky.app/profile/{{ site.bluesky_username }}.bsky.social" aria-label="Bluesky">
+      <i class="fa-brands fa-bluesky"></i>
+    </a>
+    {% endif %}
+  </div>
 </header>
 
 
